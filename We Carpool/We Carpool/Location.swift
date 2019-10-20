@@ -43,7 +43,7 @@ struct NextScreen: View {
 //                    .foregroundColor(Color.black)
            
                 
-                NavigationLink(destination: NavigationView()){
+                NavigationLink(destination: MapViewLink()){
                     NextButtonContent()
                     .background(
                     Image("Assets.xcassets/TRAFFIC")

@@ -8,7 +8,7 @@
 
 import SwiftUI
 
-struct NavigationView: View {
+struct MapViewLink: View {
     var body: some View {
         VStack{
             
@@ -20,9 +20,9 @@ struct NavigationView: View {
     }
 }
 
-struct NavigationView_Previews: PreviewProvider {
+struct MapViewLink_Previews: PreviewProvider {
     static var previews: some View {
-        NavigationView()
+        MapViewLink()
     }
 }
 
