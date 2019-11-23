@@ -8,23 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		BF19EBCF235BEDA900D527EA /* Location.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19EBCE235BEDA900D527EA /* Location.swift */; };
-		BF19EBD1235BEDBA00D527EA /* NextScreenBackup.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19EBD0235BEDBA00D527EA /* NextScreenBackup.swift */; };
-		BF19EBD5235BEDCE00D527EA /* NextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19EBD4235BEDCE00D527EA /* NextScreen.swift */; };
 		BF19EBD7235BEFA300D527EA /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF19EBD6235BEFA300D527EA /* MapView.swift */; };
 		BFADCBD5235BA9800083AC8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFADCBD4235BA9800083AC8B /* AppDelegate.swift */; };
 		BFADCBD7235BA9800083AC8B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFADCBD6235BA9800083AC8B /* SceneDelegate.swift */; };
 		BFADCBDB235BA9840083AC8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFADCBDA235BA9840083AC8B /* Assets.xcassets */; };
 		BFADCBDE235BA9840083AC8B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFADCBDD235BA9840083AC8B /* Preview Assets.xcassets */; };
 		BFADCBE1235BA9840083AC8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFADCBDF235BA9840083AC8B /* LaunchScreen.storyboard */; };
-		BFADCBE9235BA9F10083AC8B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFADCBE8235BA9F10083AC8B /* ContentView.swift */; };
 		BFADCBEB235BAA110083AC8B /* AvailablePeopleList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFADCBEA235BAA110083AC8B /* AvailablePeopleList.swift */; };
 		BFADCBED235BB4F30083AC8B /* Contact Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFADCBEC235BB4F30083AC8B /* Contact Detail.swift */; };
+		E0856925235D5E77001BCA64 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0856924235D5E77001BCA64 /* ContentView.swift */; };
+		E0856927235D5F80001BCA64 /* NextScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0856926235D5F80001BCA64 /* NextScreen.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		BF19EBCE235BEDA900D527EA /* Location.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Location.swift; sourceTree = "<group>"; };
-		BF19EBD0235BEDBA00D527EA /* NextScreenBackup.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NextScreenBackup.swift; sourceTree = "<group>"; };
-		BF19EBD4235BEDCE00D527EA /* NextScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = NextScreen.swift; path = ../../../Downloads/WeCarpool/WeCarpool/WeCarpool/NextScreen.swift; sourceTree = "<group>"; };
 		BF19EBD6235BEFA300D527EA /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		BFADCBD1235BA9800083AC8B /* We Carpool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "We Carpool.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFADCBD4235BA9800083AC8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -33,9 +30,10 @@
 		BFADCBDD235BA9840083AC8B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		BFADCBE0235BA9840083AC8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BFADCBE2235BA9840083AC8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFADCBE8235BA9F10083AC8B /* ContentView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = "../../Login Screen/ContentView.swift"; sourceTree = "<group>"; };
 		BFADCBEA235BAA110083AC8B /* AvailablePeopleList.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AvailablePeopleList.swift; sourceTree = "<group>"; };
 		BFADCBEC235BB4F30083AC8B /* Contact Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Contact Detail.swift"; sourceTree = "<group>"; };
+		E0856924235D5E77001BCA64 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E0856926235D5F80001BCA64 /* NextScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NextScreen.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,16 +69,15 @@
 				BFADCBD4235BA9800083AC8B /* AppDelegate.swift */,
 				BFADCBD6235BA9800083AC8B /* SceneDelegate.swift */,
 				BF19EBCE235BEDA900D527EA /* Location.swift */,
-				BFADCBE8235BA9F10083AC8B /* ContentView.swift */,
 				BFADCBEA235BAA110083AC8B /* AvailablePeopleList.swift */,
 				BFADCBEC235BB4F30083AC8B /* Contact Detail.swift */,
-				BF19EBD4235BEDCE00D527EA /* NextScreen.swift */,
 				BF19EBD6235BEFA300D527EA /* MapView.swift */,
-				BF19EBD0235BEDBA00D527EA /* NextScreenBackup.swift */,
 				BFADCBDA235BA9840083AC8B /* Assets.xcassets */,
 				BFADCBDF235BA9840083AC8B /* LaunchScreen.storyboard */,
 				BFADCBE2235BA9840083AC8B /* Info.plist */,
 				BFADCBDC235BA9840083AC8B /* Preview Content */,
+				E0856924235D5E77001BCA64 /* ContentView.swift */,
+				E0856926235D5F80001BCA64 /* NextScreen.swift */,
 			);
 			path = "We Carpool";
 			sourceTree = "<group>";
@@ -164,15 +161,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BF19EBD1235BEDBA00D527EA /* NextScreenBackup.swift in Sources */,
 				BFADCBD5235BA9800083AC8B /* AppDelegate.swift in Sources */,
 				BF19EBD7235BEFA300D527EA /* MapView.swift in Sources */,
 				BFADCBD7235BA9800083AC8B /* SceneDelegate.swift in Sources */,
 				BFADCBEB235BAA110083AC8B /* AvailablePeopleList.swift in Sources */,
 				BFADCBED235BB4F30083AC8B /* Contact Detail.swift in Sources */,
+				E0856925235D5E77001BCA64 /* ContentView.swift in Sources */,
 				BF19EBCF235BEDA900D527EA /* Location.swift in Sources */,
-				BF19EBD5235BEDCE00D527EA /* NextScreen.swift in Sources */,
-				BFADCBE9235BA9F10083AC8B /* ContentView.swift in Sources */,
+				E0856927235D5F80001BCA64 /* NextScreen.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

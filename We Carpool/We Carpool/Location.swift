@@ -49,7 +49,7 @@ struct NextScreen: View {
                     Image("Assets.xcassets/TRAFFIC")
                         .resizable()
                         .frame(width: 1000, height: 1000))
-             .font(.largeTitle)
+                    .font(.largeTitle)
                     .background(
                         Image("Traffic")
                             .resizable()
@@ -61,9 +61,9 @@ struct NextScreen: View {
             }
             TextField("Enter destination", text: $destination)
                                .padding()
-                               .background(lightGreyColor)
+                               //.background(lightGreyColor)
                                .cornerRadius(5.0)
-                               .padding(.bottom, 200)
+                .padding(.bottom, 200)
             
            }
         }
